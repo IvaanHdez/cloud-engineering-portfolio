@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Cloud & AWS Security Hardening ---
+.env
+.env.*
+*.pem
+*.ppk
+*.key
+*accessKeys.csv
+*credentials.csv
+.aws/
+*.tfstate
+*.tfstate.*
+.terraform/
+.venv/
+venv/
